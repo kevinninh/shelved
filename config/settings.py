@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'games.apps.GamesConfig',
+    just got fired lol
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
