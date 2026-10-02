@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'games.apps.GamesConfig',
+    ok, im ngl i think i need to restart shelved
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
