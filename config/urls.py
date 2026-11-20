@@ -17,10 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
+from django.shortcuts import render
 
 def welcome(request):
-    return HttpResponse("Welcome to Shelved")
-
+    return render(request, 'welcome.html')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
