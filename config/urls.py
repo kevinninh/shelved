@@ -20,7 +20,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def welcome(request):
-    return render(request, 'welcome.html')
+    game_count = 5  # Replace this with your actual game count logic
+    return render(request, 'welcome.html', {'game_count': game_count})
 
 urlpatterns = [
     path('admin/', admin.site.urls),
